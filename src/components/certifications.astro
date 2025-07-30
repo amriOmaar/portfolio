@@ -1,0 +1,41 @@
+---
+// src/components/certifications.astro
+const certifications = [
+  {
+    title: "Linux Server - LPIC",
+    issuer: "Linux Professional Institute",
+    link: "https://www.lpi.org/",
+  },
+  {
+    title: "English Language Certification - A2",
+    issuer: "British Council",
+    link: "#",
+  },
+  {
+    title: "Docker for Developers",
+    issuer: "Udemy",
+    link: "#",
+  },
+];
+---
+
+<section id="certifications" class="text-[var(--white)] py-16 border-t border-[#ffffff10]">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="text-lg text-[var(--sec)] mb-2 shiny-sec">Achievements</h2>
+    <h3 class="text-4xl md:text-5xl font-medium mb-8">Certifications</h3>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {
+        certifications.map(cert => (
+          <div class="bg-[#1414149c] border border-[var(--white-icon-tr)] p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+            <h4 class="text-xl font-semibold mb-2">{cert.title}</h4>
+            <p class="text-sm text-[var(--white-icon)] mb-2">Issued by: {cert.issuer}</p>
+            <a href={cert.link} target="_blank" class="text-[var(--sec)] hover:underline text-sm">
+              View Certification
+            </a>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

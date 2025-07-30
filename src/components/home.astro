@@ -2,6 +2,7 @@
 import LetterGlitch from "../React/LetterGlitch.tsx";
 import LogoWall from "../components/logoWall.astro";
 import SkillsList from "../React/SkillsList.tsx";
+import Certifications from "./certifications.astro";
 ---
 
 <section class="text-[var(--white)] mt-12 md:mt-0" id="home">
@@ -20,22 +21,55 @@ import SkillsList from "../React/SkillsList.tsx";
         </h1>
         <p class="text-md md:text-2xl text-[var(--white-icon)]">
           Developing intuitive
-          <span class="text-[var(--sec)] shiny-sec"
-            >interfaces</span
-          > and powerful
-          <span class="text-[var(--sec)] shiny-sec"
-            >backends</span
-          > for 
-          a seamless user journey.
+          <span class="text-[var(--sec)] shiny-sec">interfaces</span> and powerful
+          <span class="text-[var(--sec)] shiny-sec">backends</span> for a seamless
+          user journey.
         </p>
       </div>
+
+      <!-- NEW FULL DESCRIPTION -->
+      <p class="text-md md:text-lg text-[var(--white-icon)] leading-relaxed">
+        I am a passionate full-stack developer with a strong foundation in
+        JavaScript, TypeScript, Angular, React, Next.js, Spring Boot and
+        Node.js.
+        <br class="hidden md:block" />
+        I enjoy building responsive applications, clean UI/UX designs, and scalable
+        backend systems.
+        <br class="hidden md:block" />
+        Currently learning DevOps tools like Docker, CI/CD, and Kubernetes to build
+        cloud-native web solutions.
+      </p>
+
       <div class="flex justify-start gap-2 pt-3 md:pt-6">
+        <!-- CV View Button -->
+        <a
+          href="/CV-Omar-AMRI.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)] flex items-center gap-2"
+        >
+          <!-- PDF Icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="size-6"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              d="M6 2a2 2 0 0 0-2 2v16.002a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm6 1.5L18.5 10H13a1 1 0 0 1-1-1V3.5zM8 14h1v3H8v-3zm2.5 0h1a1 1 0 0 1 1 1v2h-1.5v-1H11v1H9.5v-2a1 1 0 0 1 1-1zm4 0h1a1 1 0 0 1 1 1v2h-1v-1H15v1h-1.5v-2a1 1 0 0 1 1-1z"
+            ></path>
+          </svg>
+          <span class="text-sm md:text-base">View CV</span>
+        </a>
+
+        <!-- GitHub -->
         <a
           target="_blank"
           href="https://github.com/amriOmaar"
           aria-label="GitHub"
           class="text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
         >
+          <!-- GitHub Icon -->
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -47,12 +81,15 @@ import SkillsList from "../React/SkillsList.tsx";
             ></path>
           </svg>
         </a>
+
+        <!-- LinkedIn -->
         <a
           target="_blank"
           href="https://www.linkedin.com/in/amriomar/"
           aria-label="LinkedIn"
           class="text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
         >
+          <!-- LinkedIn Icon -->
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -64,12 +101,15 @@ import SkillsList from "../React/SkillsList.tsx";
             ></path>
           </svg>
         </a>
+
+        <!-- Email -->
         <a
           target="_blank"
           href="https://mail.google.com/mail/?view=cm&fs=1&to=amri.omar93@gmail.com&su=Hey%20Omar!"
           aria-label="Email"
           class="text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-1 border-[var(--white-icon-tr)] p-3 rounded-xl bg-[#1414149c] hover:bg-[var(--white-icon-tr)]"
         >
+          <!-- Email Icon -->
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="2.1em"
@@ -86,6 +126,8 @@ import SkillsList from "../React/SkillsList.tsx";
     </div>
 
     <LogoWall />
+
+    <Certifications />
 
     <div class="flex flex-col lg:flex-row items-center gap-8">
       <SkillsList client:load />

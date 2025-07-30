@@ -42,7 +42,6 @@ const skills = {
     "Dockerized applications (Node.js, MongoDB, etc.)",
     "CI/CD with GitHub Actions",
     "Basic infrastructure with Terraform",
-    "Deployment on AWS & DigitalOcean",
   ],
   "UI/UX Design & Prototyping": [
     "Wireframes with Figma & Canva",
@@ -53,7 +52,8 @@ const skills = {
     "Linux (LPIC certified)",
     "Git & GitHub, GitLab",
     "Postman, MongoDB Compass",
-    "Docker, Kubernetes (in training)",
+    "Docker, Terraform, Github Actions",
+    "Kubernetes (in training)",
   ],
 };
 
