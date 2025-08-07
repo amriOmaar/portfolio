@@ -1,4 +1,4 @@
-# 🌐 Omar Amri – Portfolio
+# 🌐 Omar Amri – Portfolio : https://omaramri.netlify.app/
 
 A modern, responsive personal portfolio website built with **Astro**, **TypeScript**, and **Tailwind CSS** to showcase my projects, skills, and experience as a developer.
 
