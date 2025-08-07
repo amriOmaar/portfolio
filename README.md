@@ -44,8 +44,3 @@ git clone https://github.com/amriOmaar/portfolio.git
 cd portfolio
 npm install
 
-## 🚀 Usage
-
-To start the development server:
-```bash
-npm run dev
