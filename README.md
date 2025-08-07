@@ -33,7 +33,7 @@ This portfolio is designed to highlight my work as a developer, including projec
 - **Framework:** [Astro](https://astro.build)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com)
 - **Language:** TypeScript
-- **Hosting:** GitHub Pages / Netlify / Vercel (Specify which if applicable)
+- **Hosting:** Netlify
 
 ## ⚙️ Installation
 
