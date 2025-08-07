@@ -43,3 +43,15 @@ Clone the repository and install dependencies:
 git clone https://github.com/amriOmaar/portfolio.git
 cd portfolio
 npm install
+
+
+---
+
+Would you like me to customize this further with your:
+
+- Social media links (LinkedIn, GitHub, etc.)
+- Actual deployed site URL
+- Custom branding or slogan
+- Details on specific projects showcased?
+
+Let me know and I’ll tailor the README even more!
