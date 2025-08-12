@@ -37,11 +37,6 @@ const skills = {
     "CI/CD with GitHub Actions",
     "Basic infrastructure with Terraform",
   ],
-  "UI/UX Design & Prototyping": [
-    "Wireframes with Figma & Canva",
-    "Prototyping user flows",
-    "Improving UX based on feedback",
-  ],
   "Tools & Technologies": [
     "Linux (LPIC certified)",
     "Git & GitHub, GitLab",
